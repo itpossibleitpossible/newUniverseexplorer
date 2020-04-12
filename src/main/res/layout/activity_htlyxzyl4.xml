@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbackground"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/timu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="17sp"
+        android:textColor="#ffffff"
+        android:text="下列选项中，哪些全部属于航天测控系统中地面上的测控设备，由通信系统联系起来。"/>
+
+    <RadioGroup
+        android:id="@+id/daan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="8dp"
+        android:orientation="vertical"
+        android:checkedButton="@null"
+        >
+        <RadioButton
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/A"
+            android:text=" A.测控中心、应答机、信标机"
+            android:textColor="#ffffff"
+            android:button="@drawable/radiobutton_selector"
+            android:textSize="15sp"
+            />
+        <RadioButton
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/B"
+            android:text=" B.测控站、遥测发射机、遥控接收机"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:button="@drawable/radiobutton_selector"/>
+        <RadioButton
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/C"
+            android:text=" C.远地点  入轨点"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:button="@drawable/radiobutton_selector"/>
+        <RadioButton
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/D"
+            android:text=" C.测控中心、测控站、测量船"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:button="@drawable/radiobutton_selector"/>
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="165dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/syt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上一题"
+            android:textColor="#ffffff"
+            android:background="@color/colorBluePrimaryDark"
+            />
+        <Button
+            android:layout_marginLeft="30dp"
+            android:id="@+id/ckda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="提交"
+            android:textColor="#ffffff"
+            android:background="@color/colorBluePrimaryDark"/>
+        <Button
+            android:layout_marginLeft="30dp"
+            android:id="@+id/xyt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下一题"
+            android:textColor="#ffffff"
+            android:background="@color/colorBluePrimaryDark"/>
+
+    </LinearLayout>
+
+</LinearLayout>

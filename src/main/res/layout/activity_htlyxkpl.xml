@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbackground"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/timu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="17sp"
+        android:textColor="#ffffff"
+        android:text="飞船按其用途可以把它分成三大类，即这三大类：不载人试验飞船、载人飞船和______。"/>
+
+    <RadioGroup
+        android:id="@+id/daan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="8dp"
+        android:orientation="vertical"
+        android:checkedButton="@null"
+        >
+        <RadioButton
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/A"
+            android:text=" A.卫星式飞船 "
+            android:textColor="#ffffff"
+            android:button="@drawable/radiobutton_selector"
+            android:textSize="15sp"
+            />
+        <RadioButton
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/B"
+            android:text=" B.登月飞船 "
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:button="@drawable/radiobutton_selector"/>
+        <RadioButton
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/C"
+            android:text=" C.行星际飞船"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:button="@drawable/radiobutton_selector"/>
+        <RadioButton
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/D"
+            android:text=" D.货运飞船"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:button="@drawable/radiobutton_selector"/>
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="165dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/syt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上一题"
+            android:textColor="#ffffff"
+            android:background="@color/colorBluePrimaryDark"
+            />
+        <Button
+            android:layout_marginLeft="30dp"
+            android:id="@+id/ckda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="提交"
+            android:textColor="#ffffff"
+            android:background="@color/colorBluePrimaryDark"/>
+        <Button
+            android:layout_marginLeft="30dp"
+            android:id="@+id/xyt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下一题"
+            android:textColor="#ffffff"
+            android:background="@color/colorBluePrimaryDark"/>
+
+    </LinearLayout>
+
+</LinearLayout>

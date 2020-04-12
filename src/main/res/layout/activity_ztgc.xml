@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mainbackground"
+    >
+
+
+
+    <Button
+        android:layout_marginTop="75dp"
+        android:id="@+id/gyroSensing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="95dp"
+        android:text="开始"
+        android:background="@drawable/btn_circle"
+        android:textSize="26dp"/>
+
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:id="@+id/valueX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="32dp"
+        android:textColor="@color/white"
+        android:text="X"/>
+
+    <TextView
+        android:layout_marginTop="12dp"
+        android:id="@+id/valueY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="32dp"
+        android:textColor="@color/white"
+        android:text="Y"/>
+
+    <TextView
+        android:layout_marginTop="12dp"
+        android:id="@+id/valueZ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="32dp"
+        android:textColor="@color/white"
+        android:text="Z"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/mainExitButton"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:textSize="23dp"
+        android:layout_marginLeft="110dp"
+        android:text="退出"
+
+        android:background="@drawable/yj"/>
+
+
+</LinearLayout>

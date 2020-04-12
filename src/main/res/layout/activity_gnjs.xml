@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gnjs"
+    android:background="@drawable/mainbackground">
+
+    <TextView
+        android:id="@+id/show"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:scrollbars="vertical"
+        android:text="universe explorer APP拥有四大功能模块，分别是我的卫星、航天知识、数据换算和航天游戏。我的卫星包含在轨卫星概况、在轨卫星实况和姿态控制三个功能，在轨卫星概况向使用者展示了部分在轨卫星的轨道六根数及功能，还能动态显示所余电量及卫星运动时的动画；通过注册账号，你可以通过在轨卫星实况功能获取当前卫星的当前两行根数；姿态控制通过用户手势检测，即一根手指滑动变换卫星姿态，两根手指滑动放大缩小卫星，让用户体验到了控制卫星的姿态。航天知识介绍了航天系统工程、航天控制及光电信息三方面的内容。数据换算包含大地及空间直角坐标系的转换、时间坐标系的转换、大气层数据的转换三方面的内容，大地及空间直角坐标系的转换(以西安80坐标系为基准)实现了通过输入大地纬度、大地经度和大地高度或横坐标、纵坐标、高度，可输出对应的空间直角坐标系参数或者大地坐标系参数；时间坐标系转换实现了通过输入本地时间（北京时间），可输出UTC、GPS、Loran、TAI等不同时间系统的时间；大气层数据转换实现了通过输入飞行器的高度、速度和特征尺寸，可输出在标准大气和南京当地修正两种情况下的温度、气压、密度等大气层参数。航天游戏包含航天知识我来答和月球飞行大作战两个功能，航天知识我来答包括科普类和专业类两方面知识，通过趣味性极强的答题模式，让使用者体验到学习航天知识的乐趣；月球飞行大作战是一类射击类休闲小游戏，能够愉悦使用者的身心。"/>
+
+</LinearLayout>
